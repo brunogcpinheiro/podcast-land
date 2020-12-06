@@ -17,6 +17,9 @@ export const Container = styled.div`
   gap: 0px 0px;
   grid-template-areas:
     "menu main sidebar";
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.5);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.5);
 `;
 
 export const Menu = styled.aside`
