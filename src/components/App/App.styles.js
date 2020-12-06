@@ -10,7 +10,6 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   width: 100%;
   height: auto;
-  border: 1px solid #424242;
   border-radius: 15px;
   display: grid;
   grid-template-columns: 20% 55% 25%;
@@ -22,15 +21,12 @@ export const Container = styled.div`
 
 export const Menu = styled.aside`
   grid-area: menu;
-  padding: 20px;
 `;
 
 export const Main = styled.main`
   grid-area: main;
-  padding: 20px;
 `;
 
 export const Sidebar = styled.aside`
   grid-area: sidebar;
-  padding: 20px;
 `;
