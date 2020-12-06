@@ -12,7 +12,7 @@ export const Container = styled.div`
   height: auto;
   border-radius: 15px;
   display: grid;
-  grid-template-columns: 20% 55% 25%;
+  grid-template-columns: 15% 60% 25%;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas:
