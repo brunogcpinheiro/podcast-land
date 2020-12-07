@@ -6,3 +6,14 @@ export const MainWrapper = styled.div`
   height: 100%;
   padding: 10px;
 `;
+
+export const HeaderWrapper = styled.header`
+  width: 100%;
+  padding: 20px;
+`;
+
+export const BannerWrapper = styled.div`
+  display: flex;
+  padding: 0 30px 50px 30px;
+  width: 100%;
+`;
