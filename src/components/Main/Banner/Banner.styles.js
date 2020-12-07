@@ -22,7 +22,6 @@ export const BannerInfo = styled.div`
   > p {
     margin: 20px 0;
     font-size: 14px;
-    font-style: italic;
   }
 `;
 

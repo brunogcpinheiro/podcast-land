@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./Main.styles";
 import Header from "./Header";
 import Banner from "./Banner";
+import Explore from "./Explore";
 
 function Main () {
   return (
@@ -12,6 +13,9 @@ function Main () {
       <S.BannerWrapper>
         <Banner />
       </S.BannerWrapper>
+      <S.ExploreWrapper>
+        <Explore />
+      </S.ExploreWrapper>
     </S.MainWrapper>
   )
 }

@@ -6,13 +6,17 @@ const globalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
   }
 
   body {
     font-size: 13px;
-    font-family: "Nunito", sans-serif;
     background-color: ${colors.black};
     color: ${colors.white};
+  }
+
+  ul {
+    list-style: none;
   }
 `;
 
