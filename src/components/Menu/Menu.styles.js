@@ -26,5 +26,10 @@ export const Title = styled.h1`
 `;
 
 export const MenuListContainer = styled.div`
-  
+`;
+
+export const GoalWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 `;
