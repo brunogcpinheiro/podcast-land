@@ -6,7 +6,7 @@ const globalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nunito", sans-serif;
+    font-family: "Varela Round", sans-serif;
   }
 
   body {

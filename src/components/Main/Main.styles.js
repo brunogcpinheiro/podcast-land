@@ -23,3 +23,9 @@ export const ExploreWrapper = styled.div`
   flex-direction: column;
   padding: 0 40px;
 `;
+
+export const CardsWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  padding: 20px 40px;
+`;
