@@ -4,6 +4,7 @@ import Header from "./Header";
 import Banner from "./Banner";
 import Explore from "./Explore";
 import Cards from "./Cards";
+import Player from "./Player";
 
 function Main () {
   return (
@@ -20,6 +21,9 @@ function Main () {
       <S.CardsWrapper>
         <Cards />
       </S.CardsWrapper>
+      <S.PlayerWrapper>
+        <Player />
+      </S.PlayerWrapper>
     </S.MainWrapper>
   )
 }
