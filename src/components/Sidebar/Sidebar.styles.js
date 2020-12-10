@@ -8,3 +8,13 @@ export const SidebarWrapper = styled.div`
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 `;
+
+export const HeaderWrapper = styled.header`
+  width: 100%;
+  padding: 20px;
+`;
+
+export const StatsWrapper = styled.header`
+  width: 100%;
+  padding: 20px;
+`;

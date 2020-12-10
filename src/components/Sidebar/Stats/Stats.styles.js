@@ -1,0 +1,12 @@
+import styled from "styled-components";
+
+export const StatsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  hr {
+    width: 100%;
+  }
+`;
